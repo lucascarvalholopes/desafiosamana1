@@ -1,0 +1,59 @@
+html,
+body {
+    margin: 0;
+}
+p:hover, h2:hover, a:hover {
+    background-color: wheat;
+}
+#imagem_fundo {
+    background: url("saude.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+       
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(176, 179, 9);
+    text-shadow: 2px 2px black;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+
+}
+
+#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(202, 199, 5);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 2px 2px black;
+}
+
+#acao {
+    text-shadow: 1px 1px black;
+    font-family: sans-serif;
+    border: 3px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10 20 10 20;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.icone {
+    width: 51px;
+}
+
+section {
+    padding: 20px;
+}
+
+.destaque {
+    background-color: white ;
+}
+coluna{
+    float: left;
+}
